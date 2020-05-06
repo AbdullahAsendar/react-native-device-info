@@ -189,7 +189,6 @@ public class RNDeviceModule extends ReactContextBaseJavaModule {
             || Build.MODEL.toLowerCase(Locale.ROOT).contains("droid4x")
             || Build.MODEL.contains("Emulator")
             || Build.MODEL.contains("Android SDK built for x86")
-            || Build.MANUFACTURER.contains("Genymotion")
             || Build.HARDWARE.contains("goldfish")
             || Build.HARDWARE.contains("ranchu")
             || Build.HARDWARE.contains("vbox86")
